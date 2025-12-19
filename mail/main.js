@@ -7,12 +7,11 @@
 // - Creo la lista di email
 const emailList = ["topolino", "paperino", "pluto"];
 console.table(emailList);
-
 // - Chiedo all'utente la sua email
 const userEmail = prompt("Inserisci la tua email");
 console.log("User email:", userEmail);
 console.log("-------------");
-
+// - Controllo se l'email è presente nella lista
 let foundEmail = `"Your email isn't in the list, you got to leave.."`;
 
 for (let i = 0; i < emailList.length; i++) {
@@ -22,4 +21,5 @@ for (let i = 0; i < emailList.length; i++) {
     foundEmail = `"Your email is in the list, welcome to the party!"`;
   }
 }
+// - Do la risposta
 console.log(foundEmail);
