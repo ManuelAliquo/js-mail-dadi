@@ -23,3 +23,4 @@ for (let i = 0; i < emailList.length; i++) {
 }
 // - Do la risposta
 console.log(foundEmail);
+alert(foundEmail);

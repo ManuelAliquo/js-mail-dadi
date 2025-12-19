@@ -21,3 +21,4 @@ if (playerNumber === pcNumber) {
 }
 // - Do la risposta
 console.log(outputMsg);
+alert(`Player: ${playerNumber} / PC: ${pcNumber}: ${outputMsg}`);
